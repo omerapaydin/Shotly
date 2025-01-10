@@ -1,0 +1,27 @@
+body {
+  background-color: #fafafa;
+}
+.post-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.post-header,
+.post-footer {
+  padding: 10px;
+}
+.post-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.post-image img {
+  width: 100%;
+  height: auto;
+}
+.sidebar {
+  position: sticky;
+  top: 20px;
+}

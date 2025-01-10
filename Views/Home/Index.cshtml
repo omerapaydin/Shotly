@@ -1,0 +1,51 @@
+@model List<Post>
+<div class="container mt-4">
+    <div class="row">
+      <div class="col-lg-8">
+      @foreach(var pst in Model)
+      {
+             <div class="post-card">
+          <div class="post-header d-flex align-items-center">
+            <img
+              src="https://via.placeholder.com/40"
+              alt="User"
+              class="me-2"
+            />
+            <div>
+              <strong>User Name</strong>
+              <p class="text-muted small mb-0">@pst.PublishedOn</p>
+            </div>
+          </div>
+          <div class="post-image">
+            <img src="~/img/@pst.Image" alt="Post" />
+          </div>
+          <div class="post-footer">
+            <div class="d-flex align-items-center mb-2">
+              <i class="bi bi-heart me-3 fs-4"></i>
+              <i class="bi bi-chat me-3 fs-4"></i>
+              <i class="bi bi-send fs-4"></i>
+            </div>
+            <p><strong>100 beğenme</strong></p>
+            <p><strong>User Name</strong> @pst.Description</p>
+          </div>
+        </div>
+      }
+      </div>
+
+      <div class="col-lg-4">
+        <div class="sidebar">
+          <div class="d-flex align-items-center mb-3">
+            <img
+              src="https://via.placeholder.com/50"
+              alt="User"
+              class="rounded-circle me-3"
+            />
+            <div>
+              <strong>User Name</strong>
+              <p class="text-muted small mb-0">kullaniciadi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

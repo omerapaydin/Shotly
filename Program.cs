@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Shotly.Data.Abstract;
+using Shotly.Data.Concrete;
 using Shotly.Data.Concrete.EfCore;
 using Shotly.Entity;
 
@@ -13,6 +15,9 @@ builder.Services.AddDbContext<IdentityContext> (options =>{
     options.UseSqlite(builder.Configuration["ConnectionStrings:sql_connection"]);
 });
 
+builder.Services.AddScoped<IPostRepository,EfPostRepository>();
+
+
 
 
 var app = builder.Build();
@@ -23,6 +28,11 @@ app.UseAuthorization();
 app.UseStaticFiles();
 app.UseHttpsRedirection();
 
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<IdentityContext>();
+    DbInitializer.Seed(context);
+}
 
 app.MapControllerRoute(
     name:"default",
