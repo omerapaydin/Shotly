@@ -11,6 +11,10 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddIdentity<ApplicationUser,IdentityRole>().AddEntityFrameworkStores<IdentityContext>().AddDefaultTokenProviders();
 
+builder.Services.ConfigureApplicationCookie(options=>{
+    options.LoginPath = "/Account/Login";
+});
+
 builder.Services.AddDbContext<IdentityContext> (options =>{
     options.UseSqlite(builder.Configuration["ConnectionStrings:sql_connection"]);
 });
