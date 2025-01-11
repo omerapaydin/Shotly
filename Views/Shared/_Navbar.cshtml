@@ -35,7 +35,12 @@
 
         @if (User.Identity!.IsAuthenticated)
         {
-
+   <li class="nav-item me-3">
+    <a class="nav-link" asp-controller="Home" asp-action="CreatePost" title="Post Oluştur">
+        <i class="bi bi-plus-circle fs-5"></i>
+        <span class="ms-1">Post Oluştur</span>
+    </a>
+</li>
           var user = await UserManager.GetUserAsync(User);
       
           <li class="nav-item dropdown me-3">

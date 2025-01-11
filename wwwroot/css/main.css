@@ -29,3 +29,35 @@ body {
   width: 3rem;
   height: 3rem;
 }
+.sidebar {
+  width: 250px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.sidebar .d-flex {
+  transition: all 0.3s ease;
+}
+
+.sidebar .d-flex:hover {
+  background-color: #e9ecef;
+  transform: scale(1.02);
+}
+
+.sidebar .rounded-circle {
+  border-radius: 50%;
+}
+
+.sidebar .border-primary {
+  border-color: #007bff;
+}
+
+.sidebar .text-dark {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.sidebar .text-muted {
+  font-size: 14px;
+}
