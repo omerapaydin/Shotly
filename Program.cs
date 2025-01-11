@@ -20,6 +20,7 @@ builder.Services.AddDbContext<IdentityContext> (options =>{
 });
 
 builder.Services.AddScoped<IPostRepository,EfPostRepository>();
+builder.Services.AddScoped<ICommentRepository,EfCommentRepository>();
 
 
 

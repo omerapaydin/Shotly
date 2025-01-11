@@ -145,4 +145,4 @@
 /Users/omerapaydin/Desktop/Shotly/Shotly/obj/Debug/net9.0/Shotly.genruntimeconfig.cache
 /Users/omerapaydin/Desktop/Shotly/Shotly/obj/Debug/net9.0/ref/Shotly.dll
 /Users/omerapaydin/Desktop/Shotly/Shotly/bin/Debug/net9.0/Shotly.staticwebassets.runtime.json
-/Users/omerapaydin/Desktop/Shotly/Shotly/obj/Debug/net9.0/compressed/l9zvppv499-1nygyyhqy0.gz
+/Users/omerapaydin/Desktop/Shotly/Shotly/obj/Debug/net9.0/compressed/l9zvppv499-g108do7m0x.gz

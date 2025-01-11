@@ -1,0 +1,121 @@
+@model Post
+
+<div class="container mt-4">
+    <div class="row">
+        <!-- Post Detay -->
+        <div class="col-lg-8">
+            <div class="post-detail-card bg-white shadow-sm rounded-3 p-4">
+                <!-- Post Header -->
+                <div class="d-flex align-items-center mb-3">
+                    <img
+                        src="~/img/@Model.User.ImageFile"
+                        alt="User"
+                        class="rounded-circle me-3 border border-2 border-primary"
+                        style="width: 50px; height: 50px;"
+                    />
+                    <div>
+                        <strong class="d-block text-dark">@Model.User.UserName</strong>
+                        <p class="text-muted small mb-0">@Model.PublishedOn.ToString("dd MMMM yyyy")</p>
+                    </div>
+                </div>
+
+                <!-- Post Image -->
+                <div class="post-image mb-3">
+                    <img
+                        src="~/img/@Model.Image"
+                        alt="Post Image"
+                        class="img-fluid rounded-3"
+                    />
+                </div>
+
+                <!-- Post Description -->
+                <p class="mb-4 text-dark">
+                    <strong>@@@Model.User.UserName</strong> @Model.Description
+                </p>
+
+                <!-- Post Footer -->
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-heart me-3 fs-4 text-danger"></i>
+                    <i class="bi bi-chat me-3 fs-4 text-primary"></i>
+                    <span class="text-muted small">100 beğenme</span>
+                </div>
+            </div>
+
+            <!-- Yorumlar Kısmı -->
+            <div class="comments-section mt-4">
+                <h5 class="mb-3">Yorumlar</h5>
+
+                <!-- Yorumları Listele -->
+                @if (Model.Comments != null && Model.Comments.Any())
+                {
+                    @foreach (var comment in Model.Comments)
+                    {
+                        <div class="comment-card bg-light p-3 rounded-3 mb-3 shadow-sm">
+                            <div class="d-flex align-items-center mb-2">
+                                <img
+                                    src="~/img/@comment.User.ImageFile"
+                                    alt="User"
+                                    class="rounded-circle me-3 border"
+                                    style="width: 40px; height: 40px;"
+                                />
+                                <div>
+                                    <strong class="d-block">@comment.User.UserName</strong>
+                                    <span class="text-muted small">@comment.PublishedOn.ToString("dd MMMM yyyy HH:mm")</span>
+                                </div>
+                            </div>
+                           <p class="mb-0">@comment.Text</p>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p class="text-muted">Henüz yorum yapılmamış. İlk yorumu siz yapın!</p>
+                }
+
+                <!-- Yorum Yap -->
+                <form method="post" asp-action="AddComment" asp-route-postId="@Model.PostId" class="mt-4">
+                    <div class="mb-3">
+                        <textarea name="Content" class="form-control" rows="3" placeholder="Yorumunuzu yazın..." required></textarea>
+                    </div>
+                    <button type="submit" class="mb-3 $btn-primary-bg: black;
+$btn-primary-color: white;">Gönder</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-lg-4">
+            <div class="sidebar">
+                <div class="d-flex align-items-center mb-4 p-3 rounded-3 bg-light shadow-sm">
+                    <img
+                        src="~/img/@Model.User.ImageFile"
+                        alt="User"
+                        class="rounded-circle me-3 border border-2 border-primary"
+                        style="width: 50px; height: 50px;"
+                    />
+                    <div>
+                        <strong class="d-block text-dark">FullName</strong>
+                        <p class="text-muted small mb-0">@Model.User.UserName</p>
+                    </div>
+                </div>
+                <ul class="list-group shadow-sm">
+                    <li class="list-group-item">
+                        <a href="/" class="text-decoration-none text-dark">
+                            <i class="bi bi-house-door me-2"></i> Ana Sayfa
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="" class="text-decoration-none text-dark">
+                            <i class="bi bi-person-circle me-2"></i> Profilim
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="" class="text-decoration-none text-dark">
+                            <i class="bi bi-gear me-2"></i> Ayarlar
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

@@ -12,21 +12,22 @@
               class="me-2"
             />
             <div>
-              <strong>@pst.User.UserName</strong>
+              <strong>@@@pst.User.UserName</strong>
               <p class="text-muted small mb-0">@pst.PublishedOn</p>
             </div>
           </div>
           <div class="post-image">
+          <a href="/home/details/@pst.PostId">
             <img src="~/img/@pst.Image" alt="Post" />
+            </a>
           </div>
           <div class="post-footer">
             <div class="d-flex align-items-center mb-2">
               <i class="bi bi-heart me-3 fs-4"></i>
               <i class="bi bi-chat me-3 fs-4"></i>
-              <i class="bi bi-send fs-4"></i>
             </div>
             <p><strong>100 beğenme</strong></p>
-            <p><strong>@pst.User.UserName</strong> @pst.Description</p>
+            <p><strong>@@@pst.User.UserName</strong> @pst.Description</p>
           </div>
         </div>
       }

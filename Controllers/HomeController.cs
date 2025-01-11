@@ -17,10 +17,12 @@ namespace Shotly.Controllers
         private UserManager<ApplicationUser> _userManager;
 
         private IPostRepository _postRepository;
-        public HomeController(IPostRepository postRepository,UserManager<ApplicationUser> userManager)
+        private ICommentRepository _commentRepository;
+        public HomeController(IPostRepository postRepository,UserManager<ApplicationUser> userManager,ICommentRepository commentRepository)
         {
             _postRepository = postRepository;
             _userManager = userManager;
+            _commentRepository = commentRepository;
 
         }
         public async Task<IActionResult> Index()
@@ -102,5 +104,30 @@ namespace Shotly.Controllers
             return View(model);
         }
 
+        [Authorize]
+        public async Task<IActionResult> Details(int? id)
+        {
+            return View(await _postRepository.Posts.Include(p => p.User).Include(p => p.Comments).FirstOrDefaultAsync(p=>p.PostId==id));
+        }
+    
+        [HttpPost]
+        public async Task<IActionResult> AddComment(int postId, string content)
+        {
+             var userId = _userManager.GetUserId(User);
+             
+
+            var comment = new Comment
+            {
+                Text = content,
+                PublishedOn = DateTime.Now,
+                UserId = userId,
+                PostId = postId
+            };
+
+            _commentRepository.AddComment(comment);
+
+            return RedirectToAction("Details", new { id = postId });
+        }
+    
     }
 }
