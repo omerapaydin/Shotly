@@ -1,16 +1,17 @@
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> UserManager
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
   <div class="container">
-    <!-- Logo -->
-    <a class="navbar-brand d-flex align-items-center" href="#">
+    <a class="navbar-brand d-flex align-items-center" asp-controller="Home" asp-action="Index">
       <img
-        src="https://via.placeholder.com/40"
+        src="~/img/logo.jpg"
         alt="Logo"
-        class="rounded-circle me-2"
+        class="rounded-circle me-2 avatar"
       />
       <span class="fw-bold fs-4">Shotly</span>
     </a>
 
-    <!-- Toggler -->
+    
     <button
       class="navbar-toggler"
       type="button"
@@ -23,11 +24,9 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!-- Navbar Links -->
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto align-items-center">
 
-        <!-- Home -->
         <li class="nav-item me-3">
           <a class="nav-link" asp-controller="Home" asp-action="Index" title="Ana Sayfa">
             <i class="bi bi-house-door-fill fs-5"></i>
@@ -36,6 +35,8 @@
 
         @if (User.Identity!.IsAuthenticated)
         {
+
+          var user = await UserManager.GetUserAsync(User);
       
           <li class="nav-item dropdown me-3">
             <a
@@ -47,7 +48,7 @@
               aria-expanded="false"
             >
               <img
-                src="https://via.placeholder.com/40"
+                src="~/img/@user.ImageFile"
                 alt="User"
                 class="rounded-circle"
                 style="width: 32px; height: 32px;"

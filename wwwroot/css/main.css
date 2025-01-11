@@ -25,3 +25,7 @@ body {
   position: sticky;
   top: 20px;
 }
+.avatar {
+  width: 3rem;
+  height: 3rem;
+}
