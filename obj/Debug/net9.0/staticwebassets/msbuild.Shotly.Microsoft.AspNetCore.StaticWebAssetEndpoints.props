@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/Shotly/css/main.2dwlrnggqc.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\main.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2dwlrnggqc"},{"Name":"integrity","Value":"sha256-6rGYYSR\u002BfLzUTtHTR9zs3HETdv3rQA1R9AN5g6RYOLk="},{"Name":"label","Value":"_content/Shotly/css/main.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1650"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00226rGYYSR\u002BfLzUTtHTR9zs3HETdv3rQA1R9AN5g6RYOLk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Jan 2025 22:20:19 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Shotly/css/main.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\main.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6rGYYSR\u002BfLzUTtHTR9zs3HETdv3rQA1R9AN5g6RYOLk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1650"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00226rGYYSR\u002BfLzUTtHTR9zs3HETdv3rQA1R9AN5g6RYOLk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Jan 2025 22:20:19 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9BjZZxU1/TE1XciriGhGi1j7dZp0gbMV1QQm/5ol5Fw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1663"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229BjZZxU1/TE1XciriGhGi1j7dZp0gbMV1QQm/5ol5Fw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Jan 2025 22:23:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Shotly/css/main.o33p95u66v.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\main.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o33p95u66v"},{"Name":"integrity","Value":"sha256-9BjZZxU1/TE1XciriGhGi1j7dZp0gbMV1QQm/5ol5Fw="},{"Name":"label","Value":"_content/Shotly/css/main.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1663"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229BjZZxU1/TE1XciriGhGi1j7dZp0gbMV1QQm/5ol5Fw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Jan 2025 22:23:15 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Shotly/img/1.d69looh65h.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\1.jpg'))</AssetFile>

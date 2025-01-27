@@ -112,4 +112,5 @@ a {
 }
 .card-new {
   position: sticky;
+  top: 10px;
 }
