@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>hy8fo52aiy</Fingerprint>
-      <Integrity>Gcd96gzVIAVFRghCKkZMoeN++FyY2UjkgjnyT1HJBF8=</Integrity>
+      <Fingerprint>2dwlrnggqc</Fingerprint>
+      <Integrity>6rGYYSR+fLzUTtHTR9zs3HETdv3rQA1R9AN5g6RYOLk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\main.css'))</OriginalItemSpec>
@@ -107,6 +107,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\3f65b823-55ed-4edc-ac7f-530317730550.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\b34677cf-e37f-4d44-8b62-130c9140e4fe.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Shotly</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Shotly</BasePath>
+      <RelativePath>img/b34677cf-e37f-4d44-8b62-130c9140e4fe.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uyro0oos5m</Fingerprint>
+      <Integrity>loNG4dkqyMd05QVjG7sCVzS6yLZJCbkbApEv9aTLwrQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\b34677cf-e37f-4d44-8b62-130c9140e4fe.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\c7164e47-792b-44bf-be44-a3574cfe95bb.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Shotly</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Shotly</BasePath>
+      <RelativePath>img/c7164e47-792b-44bf-be44-a3574cfe95bb.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>twh2e6kpxf</Fingerprint>
+      <Integrity>Le2238KCRxIVrH0CO0kM9MAblDHYNga6Ntn5fj9qedc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\c7164e47-792b-44bf-be44-a3574cfe95bb.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logo.jpg'))">
       <SourceType>Package</SourceType>

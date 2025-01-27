@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jMwdZiJhofQPe8oplkVtCPYwDD+H/pcsJeWkPT9EVY0=",
+  "Hash": "wHx5X6kuEt4HipdVCRJXIrscItz0z0fydKMN9Z52QBc=",
   "Source": "Shotly",
   "BasePath": "_content/Shotly",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "/Users/omerapaydin/Desktop/Shotly/Shotly/obj/Debug/net9.0/compressed/l9zvppv499-hy8fo52aiy.gz",
+      "Identity": "/Users/omerapaydin/Desktop/Shotly/Shotly/obj/Debug/net9.0/compressed/l9zvppv499-2dwlrnggqc.gz",
       "SourceId": "Shotly",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/omerapaydin/Desktop/Shotly/Shotly/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/Shotly",
-      "RelativePath": "css/main#[.{fingerprint=hy8fo52aiy}]?.css.gz",
+      "RelativePath": "css/main#[.{fingerprint=2dwlrnggqc}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +31,8 @@
       "RelatedAsset": "/Users/omerapaydin/Desktop/Shotly/Shotly/wwwroot/css/main.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wzuhvopqun",
-      "Integrity": "1Fk0N1mZzL+ab86LVSF6yK7uUIgQAG7nlWEuUMXz6G8=",
+      "Fingerprint": "lfv1edfey2",
+      "Integrity": "nxgKOr+cu3LjgPqZT10FSZgTUV832DdqH1xRnzyog9U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/omerapaydin/Desktop/Shotly/Shotly/wwwroot/css/main.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hy8fo52aiy",
-      "Integrity": "Gcd96gzVIAVFRghCKkZMoeN++FyY2UjkgjnyT1HJBF8=",
+      "Fingerprint": "2dwlrnggqc",
+      "Integrity": "6rGYYSR+fLzUTtHTR9zs3HETdv3rQA1R9AN5g6RYOLk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/main.css"
@@ -164,6 +164,48 @@
       "OriginalItemSpec": "wwwroot/img/3f65b823-55ed-4edc-ac7f-530317730550.jpg"
     },
     {
+      "Identity": "/Users/omerapaydin/Desktop/Shotly/Shotly/wwwroot/img/b34677cf-e37f-4d44-8b62-130c9140e4fe.jpg",
+      "SourceId": "Shotly",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/omerapaydin/Desktop/Shotly/Shotly/wwwroot/",
+      "BasePath": "_content/Shotly",
+      "RelativePath": "img/b34677cf-e37f-4d44-8b62-130c9140e4fe#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uyro0oos5m",
+      "Integrity": "loNG4dkqyMd05QVjG7sCVzS6yLZJCbkbApEv9aTLwrQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/b34677cf-e37f-4d44-8b62-130c9140e4fe.jpg"
+    },
+    {
+      "Identity": "/Users/omerapaydin/Desktop/Shotly/Shotly/wwwroot/img/c7164e47-792b-44bf-be44-a3574cfe95bb.jpg",
+      "SourceId": "Shotly",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/omerapaydin/Desktop/Shotly/Shotly/wwwroot/",
+      "BasePath": "_content/Shotly",
+      "RelativePath": "img/c7164e47-792b-44bf-be44-a3574cfe95bb#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "twh2e6kpxf",
+      "Integrity": "Le2238KCRxIVrH0CO0kM9MAblDHYNga6Ntn5fj9qedc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/c7164e47-792b-44bf-be44-a3574cfe95bb.jpg"
+    },
+    {
       "Identity": "/Users/omerapaydin/Desktop/Shotly/Shotly/wwwroot/img/logo.jpg",
       "SourceId": "Shotly",
       "SourceType": "Discovered",
@@ -229,13 +271,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/main.css",
-      "AssetFile": "/Users/omerapaydin/Desktop/Shotly/Shotly/obj/Debug/net9.0/compressed/l9zvppv499-hy8fo52aiy.gz",
+      "Route": "css/main.2dwlrnggqc.css",
+      "AssetFile": "/Users/omerapaydin/Desktop/Shotly/Shotly/obj/Debug/net9.0/compressed/l9zvppv499-2dwlrnggqc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001808318264"
+          "Quality": "0.001644736842"
         }
       ],
       "ResponseHeaders": [
@@ -245,19 +287,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "552"
+          "Value": "607"
         },
         {
           "Name": "ETag",
-          "Value": "\"1Fk0N1mZzL+ab86LVSF6yK7uUIgQAG7nlWEuUMXz6G8=\""
+          "Value": "\"nxgKOr+cu3LjgPqZT10FSZgTUV832DdqH1xRnzyog9U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 19:15:35 GMT"
+          "Value": "Mon, 27 Jan 2025 22:20:19 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -273,18 +315,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Gcd96gzVIAVFRghCKkZMoeN++FyY2UjkgjnyT1HJBF8=\""
+          "Value": "W/\"6rGYYSR+fLzUTtHTR9zs3HETdv3rQA1R9AN5g6RYOLk=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "2dwlrnggqc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/main.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-Gcd96gzVIAVFRghCKkZMoeN++FyY2UjkgjnyT1HJBF8="
+          "Value": "sha256-6rGYYSR+fLzUTtHTR9zs3HETdv3rQA1R9AN5g6RYOLk="
         }
       ]
     },
     {
-      "Route": "css/main.css",
+      "Route": "css/main.2dwlrnggqc.css",
       "AssetFile": "/Users/omerapaydin/Desktop/Shotly/Shotly/wwwroot/css/main.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -294,7 +344,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1449"
+          "Value": "1650"
         },
         {
           "Name": "Content-Type",
@@ -302,121 +352,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Gcd96gzVIAVFRghCKkZMoeN++FyY2UjkgjnyT1HJBF8=\""
+          "Value": "\"6rGYYSR+fLzUTtHTR9zs3HETdv3rQA1R9AN5g6RYOLk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 19:15:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Gcd96gzVIAVFRghCKkZMoeN++FyY2UjkgjnyT1HJBF8="
-        }
-      ]
-    },
-    {
-      "Route": "css/main.css.gz",
-      "AssetFile": "/Users/omerapaydin/Desktop/Shotly/Shotly/obj/Debug/net9.0/compressed/l9zvppv499-hy8fo52aiy.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "552"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1Fk0N1mZzL+ab86LVSF6yK7uUIgQAG7nlWEuUMXz6G8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 19:15:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1Fk0N1mZzL+ab86LVSF6yK7uUIgQAG7nlWEuUMXz6G8="
-        }
-      ]
-    },
-    {
-      "Route": "css/main.hy8fo52aiy.css",
-      "AssetFile": "/Users/omerapaydin/Desktop/Shotly/Shotly/obj/Debug/net9.0/compressed/l9zvppv499-hy8fo52aiy.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001808318264"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "552"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1Fk0N1mZzL+ab86LVSF6yK7uUIgQAG7nlWEuUMXz6G8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 19:15:35 GMT"
+          "Value": "Mon, 27 Jan 2025 22:20:19 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Gcd96gzVIAVFRghCKkZMoeN++FyY2UjkgjnyT1HJBF8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hy8fo52aiy"
+          "Value": "2dwlrnggqc"
         },
         {
           "Name": "label",
@@ -424,13 +374,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Gcd96gzVIAVFRghCKkZMoeN++FyY2UjkgjnyT1HJBF8="
+          "Value": "sha256-6rGYYSR+fLzUTtHTR9zs3HETdv3rQA1R9AN5g6RYOLk="
         }
       ]
     },
     {
-      "Route": "css/main.hy8fo52aiy.css",
-      "AssetFile": "/Users/omerapaydin/Desktop/Shotly/Shotly/wwwroot/css/main.css",
+      "Route": "css/main.2dwlrnggqc.css.gz",
+      "AssetFile": "/Users/omerapaydin/Desktop/Shotly/Shotly/obj/Debug/net9.0/compressed/l9zvppv499-2dwlrnggqc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -439,7 +389,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1449"
+          "Value": "607"
         },
         {
           "Name": "Content-Type",
@@ -447,56 +397,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Gcd96gzVIAVFRghCKkZMoeN++FyY2UjkgjnyT1HJBF8=\""
+          "Value": "\"nxgKOr+cu3LjgPqZT10FSZgTUV832DdqH1xRnzyog9U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 19:15:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hy8fo52aiy"
-        },
-        {
-          "Name": "label",
-          "Value": "css/main.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Gcd96gzVIAVFRghCKkZMoeN++FyY2UjkgjnyT1HJBF8="
-        }
-      ]
-    },
-    {
-      "Route": "css/main.hy8fo52aiy.css.gz",
-      "AssetFile": "/Users/omerapaydin/Desktop/Shotly/Shotly/obj/Debug/net9.0/compressed/l9zvppv499-hy8fo52aiy.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "552"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1Fk0N1mZzL+ab86LVSF6yK7uUIgQAG7nlWEuUMXz6G8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 11 Jan 2025 19:15:35 GMT"
+          "Value": "Mon, 27 Jan 2025 22:20:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -514,7 +419,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hy8fo52aiy"
+          "Value": "2dwlrnggqc"
         },
         {
           "Name": "label",
@@ -522,7 +427,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1Fk0N1mZzL+ab86LVSF6yK7uUIgQAG7nlWEuUMXz6G8="
+          "Value": "sha256-nxgKOr+cu3LjgPqZT10FSZgTUV832DdqH1xRnzyog9U="
+        }
+      ]
+    },
+    {
+      "Route": "css/main.css",
+      "AssetFile": "/Users/omerapaydin/Desktop/Shotly/Shotly/obj/Debug/net9.0/compressed/l9zvppv499-2dwlrnggqc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001644736842"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "607"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nxgKOr+cu3LjgPqZT10FSZgTUV832DdqH1xRnzyog9U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 22:20:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6rGYYSR+fLzUTtHTR9zs3HETdv3rQA1R9AN5g6RYOLk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6rGYYSR+fLzUTtHTR9zs3HETdv3rQA1R9AN5g6RYOLk="
+        }
+      ]
+    },
+    {
+      "Route": "css/main.css",
+      "AssetFile": "/Users/omerapaydin/Desktop/Shotly/Shotly/wwwroot/css/main.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1650"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6rGYYSR+fLzUTtHTR9zs3HETdv3rQA1R9AN5g6RYOLk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 22:20:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6rGYYSR+fLzUTtHTR9zs3HETdv3rQA1R9AN5g6RYOLk="
+        }
+      ]
+    },
+    {
+      "Route": "css/main.css.gz",
+      "AssetFile": "/Users/omerapaydin/Desktop/Shotly/Shotly/obj/Debug/net9.0/compressed/l9zvppv499-2dwlrnggqc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "607"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nxgKOr+cu3LjgPqZT10FSZgTUV832DdqH1xRnzyog9U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 22:20:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nxgKOr+cu3LjgPqZT10FSZgTUV832DdqH1xRnzyog9U="
         }
       ]
     },
@@ -933,6 +975,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-6iFYRaKccCZDzs1ujxepQ40e+TmI4/kHUdsd7VbvWiY="
+        }
+      ]
+    },
+    {
+      "Route": "img/b34677cf-e37f-4d44-8b62-130c9140e4fe.jpg",
+      "AssetFile": "/Users/omerapaydin/Desktop/Shotly/Shotly/wwwroot/img/b34677cf-e37f-4d44-8b62-130c9140e4fe.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "222504"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"loNG4dkqyMd05QVjG7sCVzS6yLZJCbkbApEv9aTLwrQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 22:17:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-loNG4dkqyMd05QVjG7sCVzS6yLZJCbkbApEv9aTLwrQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/b34677cf-e37f-4d44-8b62-130c9140e4fe.uyro0oos5m.jpg",
+      "AssetFile": "/Users/omerapaydin/Desktop/Shotly/Shotly/wwwroot/img/b34677cf-e37f-4d44-8b62-130c9140e4fe.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "222504"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"loNG4dkqyMd05QVjG7sCVzS6yLZJCbkbApEv9aTLwrQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 22:17:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uyro0oos5m"
+        },
+        {
+          "Name": "label",
+          "Value": "img/b34677cf-e37f-4d44-8b62-130c9140e4fe.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-loNG4dkqyMd05QVjG7sCVzS6yLZJCbkbApEv9aTLwrQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/c7164e47-792b-44bf-be44-a3574cfe95bb.jpg",
+      "AssetFile": "/Users/omerapaydin/Desktop/Shotly/Shotly/wwwroot/img/c7164e47-792b-44bf-be44-a3574cfe95bb.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "187969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Le2238KCRxIVrH0CO0kM9MAblDHYNga6Ntn5fj9qedc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 22:18:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Le2238KCRxIVrH0CO0kM9MAblDHYNga6Ntn5fj9qedc="
+        }
+      ]
+    },
+    {
+      "Route": "img/c7164e47-792b-44bf-be44-a3574cfe95bb.twh2e6kpxf.jpg",
+      "AssetFile": "/Users/omerapaydin/Desktop/Shotly/Shotly/wwwroot/img/c7164e47-792b-44bf-be44-a3574cfe95bb.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "187969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Le2238KCRxIVrH0CO0kM9MAblDHYNga6Ntn5fj9qedc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 22:18:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "twh2e6kpxf"
+        },
+        {
+          "Name": "label",
+          "Value": "img/c7164e47-792b-44bf-be44-a3574cfe95bb.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Le2238KCRxIVrH0CO0kM9MAblDHYNga6Ntn5fj9qedc="
         }
       ]
     },

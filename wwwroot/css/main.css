@@ -22,7 +22,6 @@ body {
   height: auto;
 }
 .sidebar {
-  position: sticky;
   top: 20px;
 }
 .avatar {
@@ -103,4 +102,14 @@ button:hover,
 }
 a {
   text-decoration: none;
+}
+.post-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 5px;
+}
+.card-new {
+  position: sticky;
 }
