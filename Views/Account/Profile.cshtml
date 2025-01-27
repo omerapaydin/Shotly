@@ -1,0 +1,66 @@
+@model ApplicationUser
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Profil Bilgileri -->
+        <div class="col-lg-4">
+            <div class="card shadow-sm border-0">
+                <div class="card-body text-center">
+                    <!-- Profil Fotoğrafı -->
+                    <img
+                        src="~/img/@Model.ImageFile"
+                        alt="@Model.UserName"
+                        class="rounded-circle border border-3 border-primary mb-3"
+                        style="width: 120px; height: 120px;"
+                    />
+                    <h5 class="card-title text-dark">@Model.FullName</h5>
+                    <p class="text-muted">@Model.UserName</p>
+                    <p class="text-muted small">@Model.Email</p>
+                    <a href="/account/edit" class="btn btn-primary btn-sm mt-2">Profili Düzenle</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kullanıcı Aktiviteleri -->
+        <div class="col-lg-8">
+            <div class="card shadow-sm border-0 mb-4">
+                <div class="card-body">
+                    <h5 class="card-title text-dark">Hakkımda</h5>
+                    <p class="text-muted">
+                         "Henüz bir biyografi eklenmedi."
+                    </p>
+                </div>
+            </div>
+
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title text-dark mb-3">Gönderilerim</h5>
+                    @if (Model.Posts.Any())
+                    {
+                        <ul class="list-group list-group-flush">
+                            @foreach (var post in Model.Posts)
+                            {
+                                <li class="list-group-item d-flex align-items-center">
+                                    <img
+                                        src="~/img/@post.Image"
+                                        alt="Post"
+                                        class="rounded me-3"
+                                        style="width: 50px; height: 50px;"
+                                    />
+                                    <div>
+                                        <a href="/home/details/@post.PostId" class="text-dark fw-bold text-decoration-none">@post.Title</a>
+                                        <p class="small text-muted mb-0">@post.PublishedOn.ToString("dd MMMM yyyy")</p>
+                                    </div>
+                                </li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <p class="text-muted">Henüz bir gönderi oluşturmadınız.</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

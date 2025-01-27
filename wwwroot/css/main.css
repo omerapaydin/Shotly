@@ -85,3 +85,22 @@ button:hover,
 .btn:hover {
   background-color: #333 !important;
 }
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.list-group-item {
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+.k_adi {
+  text-decoration: none;
+  color: #333;
+}
+a {
+  text-decoration: none;
+}

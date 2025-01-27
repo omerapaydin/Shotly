@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Shotly.Entity;
 using Shotly.Models;
 
@@ -116,5 +117,23 @@ namespace Shotly.Controllers
 
             return RedirectToAction("Login");
         }
+    
+      public async Task<IActionResult> Profile(int? id)
+{
+    if (id == null)
+    {
+        return NotFound();
+    }
+
+    var user = await _userManager.FindByIdAsync(id.ToString());
+
+    if (user == null)
+    {
+        return NotFound();
+    }
+
+    return View(user);
+}
+    
     }
 }
